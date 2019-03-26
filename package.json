@@ -2,16 +2,16 @@
     "name": "autodocstring",
     "displayName": "autoDocstring",
     "description": "Generates python docstrings",
-    "version": "0.2.3",
-    "publisher": "njpwerner",
+    "version": "0.1.0",
+    "publisher": "dogtor",
     "license": "SEE LICENSE IN LICENSE",
     "icon": "images/icon.png",
     "repository": {
         "type": "git",
-        "url": "https://github.com/NilsJPWerner/autoDocstring"
+        "url": "https://github.com/thomasfernandez/autoDocstring"
     },
     "bugs": {
-        "url": "https://github.com/NilsJPWerner/autoDocstring/issues"
+        "url": "https://github.com/thomasfernandez/autoDocstring/issues"
     },
     "categories": [
         "Snippets",
@@ -68,7 +68,8 @@
                         "default",
                         "google",
                         "sphinx",
-                        "numpy"
+                        "numpy",
+                        "custom"
                     ],
                     "description": "Which docstring format to use."
                 },

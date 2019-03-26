@@ -28,6 +28,10 @@ export class AutoDocstring {
                 this.docstringFactory = new factories.NumpyFactory(this.quoteStyle);
                 break;
 
+            case "custom":
+                this.docstringFactory = new factories.CustomFactory(this.quoteStyle);
+                break;
+
             default:
                 this.docstringFactory = new factories.DefaultFactory(this.quoteStyle);
         }
